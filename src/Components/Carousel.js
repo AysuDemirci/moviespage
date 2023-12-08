@@ -44,15 +44,15 @@ const{movies}=props
       <div className="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-black ">
 <div className="container pl-10 lg:pl-5 ">
   {movies.map((a)=>(
-    <h3 className=" lg:text-xl text-machine-melon tracking-wider group-hover:mb-1 duration-200 uppercase font-gemunu">{currentIndex===a.id&&(a.mini)}</h3>
+    <h3 key={a.id} className=" lg:text-xl text-machine-melon tracking-wider group-hover:mb-1 duration-200 uppercase font-gemunu">{currentIndex===a.id&&(a.mini)}</h3>
     
   ))}
   {movies.map((a)=>(
-    <h1 className="text-4xl lg:text-6xl text-machine-red group-hover:mb-1 duration-200 uppercase font-gemunu">{currentIndex===a.id&&(a.name)}</h1>
+    <h1 key={a.id} className="text-4xl lg:text-6xl text-machine-red group-hover:mb-1 duration-200 uppercase font-gemunu">{currentIndex===a.id&&(a.name)}</h1>
     
   ))}
   {movies.map((a)=>(
-    <h1 className="text-machine-grey group-hover:mb-4 text-sm lg:text-base w-3/4 lg:w-2/3 duration-200 font-gemunu">{currentIndex===a.id&&(a.content)}</h1>
+    <h1 key={a.id} className="text-machine-grey group-hover:mb-4 text-sm lg:text-base w-3/4 lg:w-2/3 duration-200 font-gemunu">{currentIndex===a.id&&(a.content)}</h1>
     
   ))}
 <div className="flex space-x-8 opacity-0 group-hover:opacity-100 group-hover:mb-10 lg:group-hover:md-20 duration-1000">
