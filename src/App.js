@@ -11,15 +11,15 @@ export default function App() {
       name: "Believer 2",
       mini: "Action,Crime",
       content:
-        "The sequel follows Won-ho's investigation of looking for Rak, who disappeared after Brian's incarceration, while getting to the core of the elusive drug cartel.",
-      image: "/images/movies/Believer2.jpeg",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      image: "/images/movies/Believer2.jpg",
     },
     {
       id: 1,
       name: "Cruella",
       mini: "Comedy,Crime",
       content:
-        "Cruella tells the story of Estella, a talented girl and young con artist who tries to make a name for herself with her designs.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       image: "/images/movies/Cruella.jpeg",
     },
     {
